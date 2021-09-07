@@ -1,6 +1,6 @@
 jQuery.sap.declare("loginapp.Component");
 
-sap.ui.core.UIComponent.externd("loginapp.Component", {
+sap.ui.core.UIComponent.extend("loginapp.Component", {
     createContent : function() {
         var oApp = sap.ui.view({
             id: "idApp",
