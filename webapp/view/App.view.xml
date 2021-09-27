@@ -1,9 +1,6 @@
 <mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="loginapp.controller.App">
     <App>
-        <pages>
-            <Page title="App View Testing">
-                <content></content>
-            </Page>
-        </pages>
+        <mvc:XMLView id="idLoginForm" viewName="loginapp.view.LoginForm" />
+        <mvc:XMLView id="idSplitApp" viewName="loginapp.view.SplitApp" />
     </App>
 </mvc:View>
