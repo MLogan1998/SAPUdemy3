@@ -14,7 +14,7 @@
                             <k:HorizontalLayout>
                                 <FlexBox alignItems="Center">
                                     <Label id="idLPwd" width="120px" text="Password" />
-                                    <Input id="idIPwd" />
+                                    <Input id="idIPwd" type="Password" />
                                 </FlexBox>
                             </k:HorizontalLayout>
                             <k:HorizontalLayout>
