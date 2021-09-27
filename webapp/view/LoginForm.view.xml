@@ -1,7 +1,7 @@
 <mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:k="sap.ui.layout" controllerName="loginapp.controller.LoginForm">
     <App>
         <pages>
-            <Page title="Login Form">
+            <Page title="Login Form" titleAlignment="Center">
                 <content>
                     <FlexBox alignItems="Center" alignContent="Center" justifyContent="Center">
                         <k:VerticalLayout>
