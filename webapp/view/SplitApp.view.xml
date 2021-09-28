@@ -1,9 +1,16 @@
 <mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="loginapp.controller.SplitApp">
     <App>
         <pages>
-            <Page title="Split App">
-                <content></content>
-            </Page>
+            <SplitApp>
+                <masterPages>
+                    <mvc:XMLView id="idMaster" viewName="loginapp.view.Master" />
+                </masterPages>
+                <detailPages>
+                    <mvc:XMLView id="idPersonal" viewName="loginapp.view.Personal" />
+                    <mvc:XMLView id="idExperience" viewName="loginapp.view.Experience" />
+                    <mvc:XMLView id="idAddress" viewName="loginapp.view.Address" />
+                </detailPages>
+            </SplitApp>
         </pages>
     </App>
 </mvc:View>
