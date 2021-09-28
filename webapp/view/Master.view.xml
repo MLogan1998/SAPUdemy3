@@ -1,8 +1,16 @@
-<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="loginapp.controller.Master">
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="loginapp.controller.Master" xmlns:k="sap.ui.layout">
     <App>
         <pages>
-            <Page title="Title">
-                <content></content>
+            <Page title="Master View" titleAlignment="Center" showNavButton="true" navButtonPress="onNavBack">
+                <content>
+                    <k:VerticalLayout>
+                        <FlexBox direction="Column">
+                            <Link id="idLP" text="Personal Details" emphasized="true" press="goToPersonal" />
+                            <Link id="idLE" text="Experience Details" emphasized="true" press="goToExperience" />
+                            <Link id="idLA" text="Address Details" emphasized="true" press="goToAddress" />
+                        </FlexBox>
+                    </k:VerticalLayout>
+                </content>
             </Page>
         </pages>
     </App>
